@@ -36,10 +36,6 @@ int main()
 
 
 
-
-
-
-
     auto s2 = make_shape(Int<4>{}, Int<6>{}, Int<8>{},Int<10>{});
     auto a2 = make_layout(s2, make_stride(Int<2>{}, Int<3>{}, Int<5>{},Int<7>{}));
     auto b2 = make_layout(make_shape(Int<6>{}), make_stride(Int<12>{}));
