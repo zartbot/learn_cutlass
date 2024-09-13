@@ -19,5 +19,7 @@ int main()
     //B = 3 * A + 2 * B
     axpby(3,A, 2, B);
     print_tensor(B);
+
+
 }
 
